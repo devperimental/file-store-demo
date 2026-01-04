@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GCWrapper.Shared\GCWrapper.Shared.csproj" />
+    <ProjectReference Include="..\PlatformX.StorageProvider.Shared\PlatformX.StorageProvider.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
